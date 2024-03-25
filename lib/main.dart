@@ -62,6 +62,14 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+            // Image
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Image.network(
+                'https://picsum.photos/200/300',
+                fit: BoxFit.cover,
+              ),
+            ),
           ],
         ),
       ),
