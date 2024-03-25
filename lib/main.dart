@@ -108,6 +108,16 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+            // Center
+            Center(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Text(
+                  'This Text widget is centered.',
+                  style: TextStyle(fontSize: 18.0),
+                ),
+              ),
+            ),
           ],
         ),
       ),
