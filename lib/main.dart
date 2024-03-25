@@ -89,6 +89,25 @@ class MyApp extends StatelessWidget {
                 child: Text('ElevatedButton'),
               ),
             ),
+            // Stack
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(
+                    width: 200.0,
+                    height: 200.0,
+                    color: Colors.grey[300],
+                  ),
+                  Icon(
+                    Icons.star,
+                    color: Colors.yellow,
+                    size: 48.0,
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
