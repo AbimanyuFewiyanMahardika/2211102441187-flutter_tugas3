@@ -128,6 +128,22 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
+            // GridView
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: GridView.count(
+                crossAxisCount: 3,
+                shrinkWrap: true,
+                children: List.generate(
+                  6,
+                  (index) => Card(
+                    child: Center(
+                      child: Text('Item ${index + 1}'),
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
