@@ -118,6 +118,16 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
+            // AspectRatio
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: AspectRatio(
+                aspectRatio: 16 / 9,
+                child: Container(
+                  color: Colors.grey[300],
+                ),
+              ),
+            ),
           ],
         ),
       ),
