@@ -79,6 +79,16 @@ class MyApp extends StatelessWidget {
                 size: 36.0,
               ),
             ),
+            // ElevatedButton
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: ElevatedButton(
+                onPressed: () {
+                  // Handle button press
+                },
+                child: Text('ElevatedButton'),
+              ),
+            ),
           ],
         ),
       ),
