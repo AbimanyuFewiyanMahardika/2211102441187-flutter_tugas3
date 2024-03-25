@@ -70,6 +70,15 @@ class MyApp extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
+            // Icon
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Icon(
+                Icons.favorite,
+                color: Colors.red,
+                size: 36.0,
+              ),
+            ),
           ],
         ),
       ),
